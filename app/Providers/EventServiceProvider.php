@@ -19,6 +19,10 @@ class EventServiceProvider extends ServiceProvider
             SendEmailVerificationNotification::class,
         ],
     ];
+    protected $subscribe = [
+        'App\Listeners\FlarumEventSubscriber',
+    ];
+
 
     /**
      * Register any events for your application.

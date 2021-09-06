@@ -45,10 +45,11 @@
           </div>
         </div>
       </nav>
-      <div class="container">
-      <div class="row lg-auto">
+      <div id="app" class="container">
+      <div  class="row lg-auto">
           <h1>
             <strong>About Us</strong>
+            <example-component></example-component>
         </h1>
       </div>
       </div>
@@ -64,5 +65,6 @@
         </div>
         </div>
       </div>
+
   </body>
 </html>
